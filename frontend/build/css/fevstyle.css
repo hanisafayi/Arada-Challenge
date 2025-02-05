@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif !important;
+  background-color:black !important;
+}
+.custom-circle {
+  width: 90px;
+  height: 90px;
+  border-radius:30px; 
+}
+
+button {
+  padding: 10px;
+  margin: 10px;
+  width: 90%;
+  background-color:aqua;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin: 10px auto;
+  border-radius: 20px;
+}
+.container{
+  margin: 0 10px;
+
+}
+  

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Challenges</title>
+</head>
+<body class="bg-[#181A20] p-6 text-white gap-6 flex flex-col text-center">
+      
+    <div class="container mt-5 text-center">
+        <table class="table">
+          <button id="openForm" type="button" class="btn hidden bg-blue-500 text-white text-2xl p-3 rounded-3xl" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            +
+          </button>
+
+            
+            <div id="body">
+               
+
+    
+              </div>
+          </table>
+         
+    </div>
+    
+    
+
+
+<!-- Modal -->
+<div class="overlay hidden">
+  <div class="popup"> 
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+        <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-red-100  p-4 w-1/2 h-1/2 shadow-2xl  ">
+          <div class=" text-sky-800 text-center font-bold  text-3xl mb-3">Create Challenge</div>
+         
+          <form id="form">
+                  <div class=" form-group mb-4">
+                      <input class="border-2 w-full focus:border-blue-500 px-4 py-2" type="text" id="name" class="form-control" required placeholder="Enter Salon Name" name="name">
+                  </div>
+                  <div class="form-group mb-3">
+                      <input class="border-2 w-full focus:border-blue-500 px-4 py-2" type="text" id="location" class="form-control" required placeholder="location" name="location">
+                  </div>
+                 
+                  <div class="mb-3">
+                      <input class="p-3 " type="file" name="file" required>
+                  </div>
+                  <button type="submit" class="bg-blue-500 text-white text-xl p-2 rounded-3xl" value="submit">Post</button>
+              
+          </form>
+          <div class="error text-danger mt-3"></div>
+        
+    <div class="flex justify-center"> 
+        <button class="bg-red-600 p-3 text-xl rounded-2xl text-white" id="closeForm" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+      </div>
+      </div>
+
+    
+</body>
+<script src="Admin_Remove.js"></script>
+
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arada Challenges</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+
+<style>
+.loader {
+  border: 8px dotted #28C7A7;
+
+  border-radius: 70%;
+  width: 40px;
+  height: 40px;
+  animation: spin 2s linear infinite;
+  justify-content: center; 
+  align-self: center;
+  align-items: center;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+</style>
+</head>
+<body class="bg-[#181A20] gap-6 flex flex-col text-center items-center justify-center mb-20">
+  
+
+  <div class=" flex mt-80 flex-col" style=" align-self: center; align-items:center;">
+    <div class="flex justify-center self-center text-[#28C7A7] text-2xl">Arada Challenges</div>
+    <div class="loader "></div>
+  </div>
+
+
+
+<script>
+  setTimeout(function() {
+    window.location.href = "salons_page.html";
+  }, 1300);
+</script>
+
+</body>
+</html>
+
+

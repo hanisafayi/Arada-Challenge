@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arada Challenges</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body class="bg-[#181A20] p-6 text-white gap-10 flex flex-col">
+    <div class="flex items-center gap-5 self-center">
+
+        <h2 class="text-3xl text-center text-[#28c7a7] flex justify-center ">Login</h2>
+    </div>
+
+    <form id="loginForm" class="flex flex-col self-center">
+        <div class="flex flex-col">
+            <label for="email" class="">Email</label>
+            <input id="email" class="shadow appearance-none border rounded w-80 h-11 text-gray-700 leading-tight focus:outline-none focus:shadow-outline py-2 px-3" type="email" placeholder="fenucan@gmail.com" name="email" required>
+        </div>
+        <div class="flex flex-col">
+            <label for="password" class="">Password </label>
+            <input id="password" class="shadow appearance-none border rounded w-80 h-11 text-gray-700 leading-tight focus:outline-none focus:shadow-outline py-2 px-3" type="password" placeholder="*********" name="password" minlength="8" required>
+        </div>
+        <div class="flex items-center gap-4  justify-center">
+
+         
+            
+            <div id="error-message"></div>
+
+        </div>
+
+       
+        <div class="mt-8 flex justify-center items-center ">
+            <a href="Admin_remove.html"><button class="text-primarycolor text-base font-medium ml-2 p-3 btn border-[#28c7a7] border-2 rounded-md">Log in</button></a>
+      
+        </div>
+
+    </form>
+
+
+
+
+
+    <div class="flex justify-center gap-3">
+        <p>Don't have an account?</p>
+        <p class="text-[#28C7A7] ">Sign Up</p>
+    </div>
+
+</body>
+
+</html>

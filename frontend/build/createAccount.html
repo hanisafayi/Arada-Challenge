@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="TS/script.js" defer></script>
+</head>
+
+<body>
+    <div class="container min-h-screen max-w-screen-2xl items-center justify-center shadow-md rounded px-8 pt-6 pb-8 mb-4" style="background-color: #181A20;">
+        <h2 class="text-3xl text-center font-bold mb-6 mt-4" style=" color: #28C7A7; margin-bottom: 50px; text-align: center;">Arada Challenges</h2>
+        <h1 class="text-2xl text-white text-center font-semibold" style="text-align: center; color: white;">Create Account</h1>
+        <form style="padding: 50px 60px 70px; width: 50vw; margin: auto;" id="signup-form">
+            <div class="form-group">
+                <label class="block text-sm font-bold mb-2" style="color: white;" for="email">Email</label>
+                <input class="shadow appearance-none border rounded-3xl w-full py-3 px-3 text-gray-700 mb-3 focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="example@gmail.com" name="email" required>
+            </div>
+            <div class="form-group" style="margin: 15px 0; border-radius: 5px; align-items: center;">
+                <label class="block text-sm font-bold mb-2" style="color: white;" for="password">Password</label>
+                <input class="shadow appearance-none border rounded-3xl w-full py-3 px-3 text-gray-700 mb-3 focus:outline-none focus:shadow-outline" id="password" type="password" placeholder="Must be 8 characters" name="password" required>
+            </div>
+            <div class="form-group">
+                <label class="block text-sm font-bold mb-2" style="color: white;" for="confirm-password">Confirm Password</label>
+                <input class="shadow appearance-none border rounded-3xl w-full py-3 px-3 text-gray-700 mb-3 focus:outline-none focus:shadow-outline" id="confirm_password" type="password" placeholder="Repeat password" name="confirm_password" required>
+            </div>
+           
+            <div class="flex items-center justify-between mb-6" style="margin: 15px 0; border-radius: 5px; align-items: center;">
+                <button class="py-3 px-8 rounded-3xl w-full focus:outline-none focus:shadow-outline" style="background-color: #28C7A7;" type="submit">Create Account</button>
+            </div>
+            <div style="text-align: center; color: white;">
+                Already have an account?
+                <a class="inline-block align-baseline font-bold text-sm" style="color: #28C7A7;" href="login.html">Sign in</a>
+            </div>
+            <div id="error-message"></div>
+        </form>
+    </div>
+</body>
+
+</html>

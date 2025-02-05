@@ -1,0 +1,120 @@
+body{
+    background-color: #181A20;
+    margin: 1em;
+    padding: 0;
+    color: white;
+}
+
+/* ************THE LANDING PAGE ******** */
+.arada{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+}
+.arada__text{
+    font-family: 'Times New Roman', Times, serif;
+    color: #28C7A7;
+}
+.arada__loading-icon{
+    width: 2.5rem;
+    height: 2.5rem;
+
+}
+/* *************THE FOOTER ********** */
+.footer__icons{
+
+width: 1.6rem;
+height: 1.6rem;
+}
+.footer{
+    background: #181A20;
+
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+
+}
+
+
+.footer__avatar{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1.2em;
+}
+
+
+
+/* *************THE LOGIN PAGE************ */
+.login__logintext{
+    display: flex;
+    justify-content: flex-start;
+}
+.login__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+
+}
+
+.login__form__each{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.login__input{
+    border-radius: 6px;
+    width: 18em;
+    height: 2.7em;
+}
+.login__form__label{
+    opacity: 0.7;
+    color:white;
+}
+.login__remember{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+.login__forgotpass{
+    display: flex;
+    justify-content: center;
+    color: #28C7A7;
+
+}
+.login__continuewith{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.login__noacc{
+    display: flex;
+    justify-content: center;
+    gap: 0.2em;
+}
+.login__noacc__signup{
+    color: #28C7A7;
+}
+.continuewith__icons{
+    width: 4rem;
+    height: 4rem;
+}
+
+
+
+
+
+/* ***************THE SETTINGS PAGE************** */
+.settings__profpic{
+    width: 6em;
+    height: 6em;
+    border-radius: 6em;
+}
